@@ -34,6 +34,10 @@ div.card {
     padding: 5%
 }
 
+div.card p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .Pagination {
     display: flexbox;
     align-self: center;
@@ -42,6 +46,6 @@ div.card {
 }
 
 footer {
-    background-color: rgba(0, 162, 255, 0.537);
+    background-color: #908D8C;
     margin: 0%;
 }
