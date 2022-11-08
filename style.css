@@ -1,0 +1,35 @@
+.Productos1 {
+    display:flexbox;
+    align-self: left;
+    margin: 2%;
+    width: 100%;
+    height: 100%; 
+}
+
+.Productos2 {
+    display:flexbox;
+    align-self: left;
+    margin: 2%;
+    width: 100%;
+    height: 100%; 
+}
+
+div.card {
+    display: flex;
+    align-self: center;
+    width: 80%;
+    height: 100%;
+    padding: 5%
+}
+
+.Pagination {
+    display: flexbox;
+    align-self: center;
+    align-items: center;
+    margin: 3%;
+}
+
+footer {
+    background-color: rgba(0, 162, 255, 0.537);
+    margin: 0%;
+}
