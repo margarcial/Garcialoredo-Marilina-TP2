@@ -1,3 +1,8 @@
+.container-fluid {
+    padding: 0%;
+    margin: 0%;
+}
+
 .carousel .carousel-item {
     height: 400px;
   }
@@ -10,42 +15,53 @@
       min-height: 400px;
   }
 
-.Productos1 {
+#Productos1 {
     display:flexbox;
-    align-self: left;
-    margin: 2%;
+    align-content: center;
+    align-items: center;
+    padding: 2%;
+    padding-left: 7%;
     width: 100%;
     height: 100%; 
 }
 
-.Productos2 {
+#Productos2 {
     display:flexbox;
-    align-self: left;
-    margin: 2%;
+    align-self: center;
+    align-items: center;
+    padding: 2%;
+    padding-left: 7%;
     width: 100%;
     height: 100%; 
 }
 
 div.card {
-    display: flex;
+    display: flexbox;
     align-self: center;
+    align-items: left;
     width: 80%;
     height: 100%;
     padding: 5%
 }
 
-div.card p {
-    font-family: 'Courier New', Courier, monospace;
+div.card ul {
+    padding: 0%;
 }
 
-.Pagination {
+div.card li {
+    list-style: none;
+    display: flex;
+    align-items: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: small;
+}
+
+.card img {
     display: flexbox;
-    align-self: center;
-    align-items: center;
-    margin: 3%;
+    align-content: center;
+    padding: 2%;
 }
 
 footer {
     background-color: #908D8C;
-    margin: 0%;
 }
