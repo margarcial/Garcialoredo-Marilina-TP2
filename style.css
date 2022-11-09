@@ -56,12 +56,6 @@ div.card li {
     font-size: small;
 }
 
-.card img {
-    display: flexbox;
-    align-content: center;
-    padding: 2%;
-}
-
 footer {
     background-color: #908D8C;
 }
