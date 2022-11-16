@@ -59,3 +59,8 @@ div.card li {
 footer {
     background-color: #908D8C;
 }
+
+footer ul {
+    list-style: none;
+    align-items: center;
+}
